@@ -515,8 +515,8 @@
                                 alignItems: "center",
                                 justifyContent: "center",
                                 children: [
-                                    (0, r.jsx)(nn.Z, { href: "https://twitter.com/tmcdefi", children: (0, r.jsx)(en.Z, { variant: "text", "aria-label": "Twitter", children: (0, r.jsx)(tn.Z, { width: 35 }) }) }),
-                                    (0, r.jsx)(nn.Z, { href: "https://t.me/tmcdefi", children: (0, r.jsx)(en.Z, { variant: "text", "aria-label": "Telegram", children: (0, r.jsx)(rn.Z, { width: 35 }) }) }),
+                                    (0, r.jsx)(nn.Z, { href: "https://twitter.com/Tmcfintech", children: (0, r.jsx)(en.Z, { variant: "text", "aria-label": "Twitter", children: (0, r.jsx)(tn.Z, { width: 35 }) }) }),
+                                    (0, r.jsx)(nn.Z, { href: "https://t.me/Tmcfintech", children: (0, r.jsx)(en.Z, { variant: "text", "aria-label": "Telegram", children: (0, r.jsx)(rn.Z, { width: 35 }) }) }),
                                     /*(0, r.jsx)(nn.Z, { href: "https://discord.gg/", children: (0, r.jsx)(en.Z, { variant: "text", "aria-label": "Discord", children: (0, r.jsx)(on.Z, { width: 35 }) }) }),*/
                                 ],
                             }),
