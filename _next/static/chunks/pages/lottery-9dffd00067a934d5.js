@@ -2016,7 +2016,7 @@
                             children: [
                                 (0, r.jsxs)(Sn, {
                                     children: [
-                                        (0, r.jsx)(a.Z, { className: "text title", color: "textSubtle", fontSize: "19px", fontWeight: "600", marginBottom: "20px", children: "The Titano Lottery" }),
+                                        (0, r.jsx)(a.Z, { className: "text title", color: "textSubtle", fontSize: "19px", fontWeight: "600", marginBottom: "20px", children: "The True Money Lottery" }),
                                         (0, r.jsxs)(c.Z, {
                                             className: "text",
                                             position: "relative",

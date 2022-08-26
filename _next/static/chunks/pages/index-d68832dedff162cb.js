@@ -292,7 +292,7 @@
                             className: "Card-Inner",
                             children: [
                                 (0, r.jsx)("img", { src: "/images/lottery-bg.svg", alt: "lottery" }),
-                                (0, r.jsx)(_, { fontSize: "23px", marginBottom: "16px", children: "The Titano Lottery" }),
+                                (0, r.jsx)(_, { fontSize: "23px", marginBottom: "16px", children: "The True Money Lottery" }),
                                 (0, r.jsx)(d.Z, { color: "textSubtle", fontSize: "19px", children: "Win up to" }),
                                 (0, r.jsxs)(k.Z, {
                                     position: "relative",
@@ -324,7 +324,7 @@
                                     ],
                                 }),
                                 (0, r.jsx)(d.Z, { color: "textSubtle", fontSize: "19px", marginTop: "8px", children: "Try your luck!" }),
-                                (0, r.jsx)(d.Z, { color: "textSubtle", fontSize: "12px", marginTop: "12px", marginBottom: "21px", children: "Playing the Titano Lottery gives you a chance to win huge prizes. It's easy and fair!" }),
+                                (0, r.jsx)(d.Z, { color: "textSubtle", fontSize: "12px", marginTop: "12px", marginBottom: "21px", children: "Playing the True Money Lottery gives you a chance to win huge prizes. It's easy and fair!" }),
                                 (0, r.jsx)(k.Z, {
                                     margin: "0 0 20px",
                                     children: (0, r.jsx)(F, {
