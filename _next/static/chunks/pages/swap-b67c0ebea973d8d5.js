@@ -2468,7 +2468,7 @@
                                 style: { margin: 4 },
                                 children: (0, t.jsxs)(on.j, {
                                     children: [
-                                        (0, t.jsx)(dr, { title: E("Swap"), subtitle: E("Fast, Secure, KYC-Free."), hasAmount: nr, onRefreshPrice: rr }),
+                                        (0, t.jsx)(dr, { title: E("Swap"), subtitle: E("Fast and Secure."), hasAmount: nr, onRefreshPrice: rr }),
                                         (0, t.jsxs)(ie, {
                                             id: "swap-page",
                                             style: { minHeight: "390px" },
