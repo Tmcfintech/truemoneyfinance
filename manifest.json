@@ -1,0 +1,18 @@
+{
+  "short_name": "Titano",
+  "name": "Titano",
+  "description": "Swap, Win, PLAY and earn a fixed 102k% APY with the original AutoStaking token",
+  "homepage_url": "https://titano.finance",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1FC7D4",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "16x16"
+    }
+  ]
+}
