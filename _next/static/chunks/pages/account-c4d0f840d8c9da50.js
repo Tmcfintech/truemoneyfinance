@@ -306,7 +306,7 @@
                                                   color: "success",
                                                   children: [
                                                       "$",
-                                                      (l * g * 0.0003958125)
+                                                      (l * g * 0.000791625)
                                                           .toFixed(2)
                                                           .toString()
                                                           .replace(/\B(?=(\d{3})+(?!\d))/g, " "),
@@ -333,7 +333,7 @@
                                                   color: "success",
                                                   children: [
                                                       "$",
-                                                      (l * g * 0.7891)
+                                                      (l * g * 1.5782)
                                                           .toFixed(2)
                                                           .toString()
                                                           .replace(/\B(?=(\d{3})+(?!\d))/g, " "),
