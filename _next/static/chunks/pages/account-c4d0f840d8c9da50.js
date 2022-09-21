@@ -191,7 +191,7 @@
                                     n || t
                                         ? (0, r.jsx)(u.Z, {})
                                         : "$".concat(
-                                              (e * i * 0.019176)
+                                              (e * i * 0.038352)
                                                   .toFixed(2)
                                                   .toString()
                                                   .replace(/\B(?=(\d{3})+(?!\d))/g, " "),
@@ -206,7 +206,7 @@
                                     n || t
                                         ? (0, r.jsx)(u.Z, {})
                                         : "".concat(
-                                              (0.019176 * i)
+                                              (0.038352 * i)
                                                   .toFixed(2)
                                                   .toString()
                                                   .replace(/\B(?=(\d{3})+(?!\d))/g, " "),
