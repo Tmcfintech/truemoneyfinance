@@ -87,7 +87,7 @@
                                     flexDirection: "column",
                                     marginBottom: "12px",
                                     children: [
-                                        (0, r.jsx)(l.Z, { scale: "xl", color: "textSubtle", children: n ? (0, r.jsx)(s.Z, {}) : (0, r.jsx)(g.Z, { value: n ? 0 : (t / Math.pow(10, 6)).toFixed(2), prefix: "$", postfix: "M" }) }),
+                                        (0, r.jsx)(l.Z, { scale: "xl", color: "textSubtle", children: n ? (0, r.jsx)(s.Z, {}) : (0, r.jsx)(g.Z, { value: n ? 0 : (t / Math.pow(10, 6)).toFixed(4), prefix: "$", postfix: "M" }) }),
                                         (0, r.jsx)(d.Z, { color: "textSubtle", children: "Marketcap" }),
                                     ],
                                 }),
@@ -95,7 +95,7 @@
                                     flexDirection: "column",
                                     marginBottom: "12px",
                                     children: [
-                                        (0, r.jsx)(l.Z, { scale: "xl", color: "textSubtle", children: n ? (0, r.jsx)(s.Z, {}) : (0, r.jsx)(g.Z, { value: n ? 0 : (i / Math.pow(10, 9)).toFixed(2), prefix: "", postfix: "B" }) }),
+                                        (0, r.jsx)(l.Z, { scale: "xl", color: "textSubtle", children: n ? (0, r.jsx)(s.Z, {}) : (0, r.jsx)(g.Z, { value: n ? 0 : (i / Math.pow(10, 9)).toFixed(4), prefix: "", postfix: "B" }) }),
                                         (0, r.jsx)(d.Z, { color: "textSubtle", children: "Circulating Supply" }),
                                     ],
                                 }),
@@ -137,7 +137,7 @@
                     return (0, r.jsxs)(x, {
                         children: [
                             (0, r.jsx)(d.Z, { color: "textSubtle", marginBottom: "12px", children: "Liquidity" }),
-                            (0, r.jsx)(l.Z, { scale: "lg", color: "textSubtle", children: e ? (0, r.jsx)(s.Z, {}) : (0, r.jsx)(g.Z, { value: e ? 0 : (t / Math.pow(10, 6)).toFixed(2), prefix: "$", postfix: "M" }) }),
+                            (0, r.jsx)(l.Z, { scale: "lg", color: "textSubtle", children: e ? (0, r.jsx)(s.Z, {}) : (0, r.jsx)(g.Z, { value: e ? 0 : (t / Math.pow(10, 3)).toFixed(4), prefix: "$", postfix: "K" }) }),
                             e ? (0, r.jsx)(s.Z, {}) : (0, r.jsx)(v, { children: (t - n) / n }),
                         ],
                     });
@@ -161,7 +161,7 @@
                     return (0, r.jsxs)(x, {
                         children: [
                             (0, r.jsx)(d.Z, { color: "textSubtle", marginBottom: "12px", children: "Treasury" }),
-                            (0, r.jsx)(l.Z, { scale: "lg", color: "textSubtle", children: e ? (0, r.jsx)(s.Z, {}) : (0, r.jsx)(g.Z, { value: e ? 0 : (t / Math.pow(10, 6)).toFixed(2), prefix: "$", postfix: "M" }) }),
+                            (0, r.jsx)(l.Z, { scale: "lg", color: "textSubtle", children: e ? (0, r.jsx)(s.Z, {}) : (0, r.jsx)(g.Z, { value: e ? 0 : (t / Math.pow(10, 3)).toFixed(4), prefix: "$", postfix: "K" }) }),
                             e ? (0, r.jsx)(s.Z, {}) : (0, r.jsx)(Z, { children: (t - n) / n }),
                         ],
                     });
