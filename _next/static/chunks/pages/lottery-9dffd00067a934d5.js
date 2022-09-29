@@ -1024,8 +1024,8 @@
                 De = function (e) {
                     var n = e.priceTicketInUSDT,
                         t = e.discountDivisor,
-                        r = e.amountCollectedInTITANO,
-                        i = e.amountInjectedInTITANO,
+                        r = e.amountCollectedInTMF,
+                        i = e.amountInjectedInTMF,
                         o = new W.Z(t),
                         c = new W.Z(n),
                         u = new W.Z(r),
@@ -1042,10 +1042,10 @@
                         treasuryFee: e.treasuryFee,
                         firstTicketId: e.firstTicketId,
                         lastTicketId: e.lastTicketId,
-                        amountCollectedInTITANO: u,
-                        amountInjectedInTITANO: a,
+                        amountCollectedInTMF: u,
+                        amountInjectedInTMF: a,
                         finalNumber: e.finalNumber,
-                        titanoPerBracket: e.titanoPerBracket,
+                        tmfPerBracket: e.tmfPerBracket,
                         countWinnersPerBracket: e.countWinnersPerBracket,
                         rewardsBreakdown: e.rewardsBreakdown,
                     };
@@ -1357,7 +1357,7 @@
                     ye = we.reader,
                     Ce = we.signer,
                     Ze = (0, oe.Z)().toastSuccess,
-                    ke = (0, ne.ZP)(K.ZP.titano.address),
+                    ke = (0, ne.ZP)(K.ZP.tmf.address),
                     Se = ke.balance,
                     Oe = ke.fetchStatus,
                     Le = Se.toJSON(),
@@ -1994,8 +1994,8 @@
                     var e = (0, f.Ge)().account,
                         n = (0, s.QG)(),
                         t = n.currentRound,
-                        i = t.amountCollectedInTITANO,
-                        o = t.amountInjectedInTITANO,
+                        i = t.amountCollectedInTMF,
+                        o = t.amountInjectedInTMF,
                         u = t.status,
                         l = t.endTime,
                         d = n.isTransitioning,
@@ -2079,8 +2079,8 @@
                                                 (0, r.jsx)(zn, { src: "images/ball5.svg", style: { position: "absolute" }, alt: "ball5" }),
                                                 (0, r.jsx)(Dn, { src: "images/ball7.png", style: { position: "absolute" }, alt: "ball7" }),
                                                 /*
-                                                (0, r.jsx)(An, { src: "images/Titanocoin1.png", style: { position: "absolute" }, alt: "titano1" }),
-                                                (0, r.jsx)(En, { src: "images/Titanocoin2.png", style: { position: "absolute" }, alt: "titano2" }),
+                                                (0, r.jsx)(An, { src: "images/Tmfcoin1.png", style: { position: "absolute" }, alt: "tmf1" }),
+                                                (0, r.jsx)(En, { src: "images/Tmfcoin2.png", style: { position: "absolute" }, alt: "tmf2" }),
                                                 */
                                             ],
                                         }),
@@ -4260,8 +4260,8 @@
                     (0, i.useEffect)(
                         function () {
                             if (n) {
-                                var e = n.amountCollectedInTITANO,
-                                    t = n.amountInjectedInTITANO,
+                                var e = n.amountCollectedInTMF,
+                                    t = n.amountInjectedInTMF,
                                     r = n.rewardsBreakdown,
                                     i = n.countWinnersPerBracket,
                                     o = new W.Z(500).div(100),
@@ -4391,8 +4391,8 @@
                     var h = new W.Z(NaN),
                         m = X.HW;
                     if (n) {
-                        var b = n.amountCollectedInTITANO,
-                            g = n.amountInjectedInTITANO;
+                        var b = n.amountCollectedInTMF,
+                            g = n.amountInjectedInTMF;
                         (h = b.plus(g).times(x)), (m = new W.Z(1200).div(100).div(100).times(new W.Z(b)));
                     }
                     return (0, r.jsxs)(pi, {
@@ -4427,7 +4427,7 @@
                                                               fontSize: "14px",
                                                               color: "#585B86",
                                                               children: [
-                                                                  (+(0, w.mW)(null === n || void 0 === n ? void 0 : n.amountCollectedInTITANO.plus(null === n || void 0 === n ? void 0 : n.amountInjectedInTITANO)))
+                                                                  (+(0, w.mW)(null === n || void 0 === n ? void 0 : n.amountCollectedInTMF.plus(null === n || void 0 === n ? void 0 : n.amountInjectedInTMF)))
                                                                       .toFixed(2)
                                                                       .toString()
                                                                       .replace(/\B(?=(\d{3})+(?!\d))/g, " "),
@@ -5073,7 +5073,7 @@
                                     children: [
                                         (0, r.jsx)(oo, { color: "#8FE226", text: "Sent to the burn address" }),
                                         (0, r.jsx)(a.Z, { textAlign: "right", bold: !0, children: "12%" }),
-                                        (0, r.jsx)(oo, { color: "#26E2B3", text: "Sent to the Titano treasury" }),
+                                        (0, r.jsx)(oo, { color: "#26E2B3", text: "Sent to the Tmf treasury" }),
                                         (0, r.jsx)(a.Z, { textAlign: "right", bold: !0, children: "5%" }),
                                         (0, r.jsx)(oo, { color: "#FFD644", text: "1st combination ( 1 number)" }),
                                         (0, r.jsx)(a.Z, { textAlign: "right", bold: !0, children: "4%" }),
@@ -5383,7 +5383,7 @@
                                     (0, r.jsx)(Io.Z, { href: "https://twitter.com/tmcdefi", children: (0, r.jsx)(Oi.Z, { variant: "text", "aria-label": "Twitter", children: (0, r.jsx)(So.Z, { width: 35 }) }) }),
                                     (0, r.jsx)(Io.Z, { href: "https://t.me/tmcdefi", children: (0, r.jsx)(Oi.Z, { variant: "text", "aria-label": "Telegram", children: (0, r.jsx)(Oo.Z, { width: 35 }) }) }),
                                     (0, r.jsx)(Io.Z, { href: "https://discord.gg/xxdS792B7q", children: (0, r.jsx)(Oi.Z, { variant: "text", "aria-label": "Discord", children: (0, r.jsx)(Lo.Z, { width: 35 }) }) }),
-                                    (0, r.jsx)(Io.Z, { href: "https://titano.medium.com/", children: (0, r.jsx)(Oi.Z, { variant: "text", "aria-label": "Medium", children: (0, r.jsx)(To.Z, { width: 35 }) }) }),
+                                    (0, r.jsx)(Io.Z, { href: "https://tmf.medium.com/", children: (0, r.jsx)(Oi.Z, { variant: "text", "aria-label": "Medium", children: (0, r.jsx)(To.Z, { width: 35 }) }) }),
                                 ],
                             }),
                         ],
@@ -5546,8 +5546,8 @@
                     function (e) {
                         var n = e.priceTicketInUSDT,
                             t = e.discountDivisor,
-                            r = e.amountCollectedInTITANO,
-                            i = e.amountInjectedInTITANO;
+                            r = e.amountCollectedInTMF,
+                            i = e.amountInjectedInTMF;
                         return (function (e) {
                             for (var n = 1; n < arguments.length; n++) {
                                 var t = null != arguments[n] ? arguments[n] : {},
@@ -5563,7 +5563,7 @@
                                     });
                             }
                             return e;
-                        })({}, e, { priceTicketInUSDT: new s.Z(n), discountDivisor: new s.Z(t), amountCollectedInTITANO: new s.Z(r), amountInjectedInTITANO: new s.Z(i) });
+                        })({}, e, { priceTicketInUSDT: new s.Z(n), discountDivisor: new s.Z(t), amountCollectedInTMF: new s.Z(r), amountInjectedInTMF: new s.Z(i) });
                     }
                 ),
                 m = (0, l.P1)(

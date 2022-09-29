@@ -57,7 +57,7 @@
                             return n.account.loading;
                         }),
                         i = (0, p.C)(function (n) {
-                            return n.account.balances.titano;
+                            return n.account.balances.tmf;
                         }),
                         o = (0, p.C)(function (n) {
                             return n.account.reflected;
@@ -130,7 +130,7 @@
                             return n.account.loading;
                         }),
                         i = (0, p.C)(function (n) {
-                            return n.account.balances.titano;
+                            return n.account.balances.tmf;
                         });
                     return (0, r.jsxs)(x, {
                         children: [
@@ -179,7 +179,7 @@
                             return n.account.loading;
                         }),
                         i = (0, p.C)(function (n) {
-                            return parseFloat(n.account.balances.titano);
+                            return parseFloat(n.account.balances.tmf);
                         });
                     return (0, r.jsxs)(x, {
                         children: [
@@ -240,7 +240,7 @@
                             return n.account.loading;
                         }),
                         g = (0, p.C)(function (n) {
-                            return n.account.balances.titano;
+                            return n.account.balances.tmf;
                         }),
                         h = (0, p.C)(function (n) {
                             return n.app.nextRebase;

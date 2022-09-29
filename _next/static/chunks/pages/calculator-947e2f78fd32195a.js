@@ -229,7 +229,7 @@
                     [S]
                 );
                 var z = (0, Z.C)(function (n) {
-                        return n.account.balances.titano;
+                        return n.account.balances.tmf;
                     }),
                     F = (0, o.ZP)(c.Z).withConfig({ componentId: "sc-d85e20c4-2" })(I(), function (n) {
                         return n.theme.colors.cardBorder;

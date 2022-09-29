@@ -287,8 +287,8 @@
                 $ = function () {
                     (0, B.ZK)();
                     var n = (0, B.QG)().currentRound,
-                        e = n.amountCollectedInTITANO,
-                        t = n.amountInjectedInTITANO,
+                        e = n.amountCollectedInTMF,
+                        t = n.amountInjectedInTMF,
                         i = (0, h.C)(function (n) {
                             return n.app.marketPrice;
                         }),
@@ -897,8 +897,8 @@
                     function (n) {
                         var e = n.priceTicketInUSDT,
                             t = n.discountDivisor,
-                            r = n.amountCollectedInTITANO,
-                            i = n.amountInjectedInTITANO;
+                            r = n.amountCollectedInTMF,
+                            i = n.amountInjectedInTMF;
                         return (function (n) {
                             for (var e = 1; e < arguments.length; e++) {
                                 var t = null != arguments[e] ? arguments[e] : {},
@@ -914,7 +914,7 @@
                                     });
                             }
                             return n;
-                        })({}, n, { priceTicketInUSDT: new l.Z(e), discountDivisor: new l.Z(t), amountCollectedInTITANO: new l.Z(r), amountInjectedInTITANO: new l.Z(i) });
+                        })({}, n, { priceTicketInUSDT: new l.Z(e), discountDivisor: new l.Z(t), amountCollectedInTMF: new l.Z(r), amountInjectedInTMF: new l.Z(i) });
                     }
                 ),
                 g = (0, s.P1)(
